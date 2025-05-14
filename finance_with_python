@@ -1,0 +1,15 @@
+# Build EAR function
+
+def calc_ear(periodic_rate, compounding_frequency):
+    """
+    Calculates the Effective Annual Rate (EAR).
+
+    Parameters:
+    periodic_rate (float): The periodic interest rate (e.g., monthly rate).
+    compounding_frequency (int): The number of compounding periods per year.
+
+    Returns:
+    float: The Effective Annual Rate (EAR).
+    """
+    ear = (1 + periodic_rate/compounding_frequency) ** compounding_frequency - 1
+    return ear
