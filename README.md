@@ -1,1 +1,1 @@
-# data_quest_projects
+# business_analyst_notes
